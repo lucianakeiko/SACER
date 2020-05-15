@@ -1,29 +1,35 @@
 body {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Escola_de_Atenas_-_Vaticano_2.jpg');
-    background-size: auto 100vh;
-    font-family: Roboto;
+
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     height:100vh;
+    font-family: 'Pangolin', cursive;
+    align-items: center;
   }
   
   .menu {
-    background-color: white;
+    font-family: 'Pangolin', cursive;
+    align-items: center;
+    
   }
   .menu li {
     list-style: none;
+    font-family: 'Pangolin', cursive;
+  }
+  .menu p {
+    font-size: large;
   }
   .menu ul {
     display: flex;
     justify-content: space-between;
   }
   .site-tittle {
-    color:whitesmoke;
     text-align: center;
     font-style: italic;
   }
   
   .site-subtittle {
-    background-color: white;
-  }
+      }
   
   a {
     color: teal;
