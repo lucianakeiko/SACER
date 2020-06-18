@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /* ploc */
+    background: #e6e6e6; /* ploc */
+    font-family: Lato, Roboto, Tahoma, sans-serif; /* ploc */
+    text-rendering: optimizeLegibility !important; /* renderiza a fonte com suavidade  */
+    -webkit-font-smoothing: antialiased !important; /* ploc */
+
+}
