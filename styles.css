@@ -51,12 +51,24 @@ header#main-header nav ul li {
    font-weight: bold;
 
    margin-left: 30px;
+
+}
+header#main-header nav ul li a {
+    display: flex;
+    align-items: center;
    
+   font-size: 13px;
+   color: #667580;
+   font-weight: bold;
+
+   margin-left: 30px;
+
 }
 
 header#main-header nav ul li img {
     margin-left: 7px;
-   
+    height: 34px;
+    width: 34px;
 }
 header#main-header div.side {
     display: flex;
@@ -102,8 +114,13 @@ div.banner {
     background: #3bb9e3; /* position relative + z-index1 p/ não perder a box shadow*/
     display: flex;
     align-items: center;
-    justify-content: center;
     color: #fff;
+
+}
+div.duvidas p {
+    color: black;
+    padding: 5px;
+    
 
 }
 
