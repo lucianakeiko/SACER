@@ -131,3 +131,7 @@ div.ds {
     align-items: center;
     justify-content: center;
 }
+div.ds p {
+    padding: 5px;
+
+}
