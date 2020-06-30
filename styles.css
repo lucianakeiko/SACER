@@ -34,7 +34,6 @@ header#main-header .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 header#main-header nav ul {
@@ -109,7 +108,7 @@ header#main-header div.side button {
     border-radius: 16px;
 }
 div.banner {
-    height: 300px;
+    height: 50px;
     width: 100%;
     background: #3bb9e3; /* position relative + z-index1 p/ não perder a box shadow*/
     display: flex;
