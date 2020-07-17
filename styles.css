@@ -7,12 +7,9 @@
 input, button {
     outline: 0;
 }
-
-
-
 body { /* ploc */
     background: #e6e6e6; /* ploc */
-    font-family: Lato, Roboto, Tahoma, sans-serif; /* ploc */
+    font-family: 'Raleway', sans-serif;
     text-rendering: optimizeLegibility !important; /* renderiza a fonte com suavidade  */
     -webkit-font-smoothing: antialiased !important; /* ploc */
 }
@@ -24,7 +21,7 @@ body { /* ploc */
 header#main-header {
 
     height: 46px;
-    background: #fff;
+    background:#8ad0ee;
     box-shadow: 0 1px 1px rgba(0,0,0,0.25);
     position: relative;
     z-index: 1;
@@ -48,6 +45,7 @@ header#main-header nav ul li {
    font-size: 13px;
    color: #667580;
    font-weight: bold;
+   font-family: 'Raleway', sans-serif;
 
    margin-left: 30px;
 
@@ -107,13 +105,15 @@ header#main-header div.side button {
     border:0;
     border-radius: 16px;
 }
+
 div.banner {
     height: 50px;
     width: 100%;
-    background: #3bb9e3; /* position relative + z-index1 p/ não perder a box shadow*/
+    background: #FEC876; /* position relative + z-index1 p/ não perder a box shadow*/
     display: flex;
     align-items: center;
-    color: #fff;
+    color: rgb(14, 13, 13);
+    font-family: 'Raleway', sans-serif;
 
 }
 div.duvidas p {
@@ -133,4 +133,46 @@ div.ds {
 div.ds p {
     padding: 5px;
 
+}
+
+
+
+#Dashboards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: center;
+    background: rgb(219, 233, 245);
+    margin: 5px;
+
+}
+
+#Indicadores{
+    display: flex;
+    flex-direction: row;
+    align-items: row;
+    justify-content: space-center;
+    flex-wrap: wrap;
+    margin: 5px
+    
+}
+.box {
+    width: 144px;
+    height: 89px;
+    background: #FEF1CF;
+    margin: 5px;
+    border: 0;
+    border-radius: 13%;
+}
+
+.Semiarido {
+    background:#BBDEFB;
+}
+
+.Amazonia {
+     background: #C8E6C9;
+}
+
+.Andamento {
+    background: red;
 }
