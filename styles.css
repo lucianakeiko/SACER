@@ -154,14 +154,17 @@ div.wrapper-content aside.col1 h1 {
 div.wrapper-content aside.col1 span {
     font-size: 14px;
     color:#0E0D11;
+    margin-top: 7px;
 }
 
 div.wrapper-content aside.col1 p {
     font-size: 15px;
     color:#0E0D11;
+    margin-top: 7px;
 }
 div.wrapper-content aside.col1 li {
     font-size: 14px;
+    margin-top: 7px;
     color:#0E0D11;
     list-style: none;
     display: flex;
@@ -174,9 +177,25 @@ div.wrapper-content aside.col1 li {
 div.duvidas p {
     color: black;
     padding: 5px;
-    
-
 }
+
+div.titulo  {
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  
+  div.codigo textarea {
+    width: 95%;
+    height: 350px;
+    color: grey;
+  }
 
 div.ds {
     height: 100%;
@@ -196,6 +215,7 @@ div.separador{
     flex-direction: column;
     margin-top: 15px;
     margin-bottom: 15px;
+    color:#26353E;
 }
 
 div.Indicadores{
@@ -255,6 +275,10 @@ div.Amazonia {
      background: #C8E6C9;
 }
 
+div.Compilado {
+    background: #FEF1CF;
+}
+
 div.Andamento {
     background: red;
 }
@@ -265,6 +289,7 @@ div.Andamento {
     height: 150px;
     border: 1px solid #f1f1f1;
     border-radius: 15%;
+    margin: 5px;
 
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -308,12 +333,27 @@ div.Andamento {
   .flip-card-front {
     background-color: #bbb;
     color: black;
-
   }
-  
+
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #11AEEF;
     color: white;
     transform: rotateY(180deg);
+    
   }
+
+  .alinhamento-central {
+	height: 150px;
+	justify-content: center;
+	align-items: center;
+}
+.alinhamento-central .item {
+	flex: 0;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.alinhamento-central p {
+    font-size: 12px;
+}
