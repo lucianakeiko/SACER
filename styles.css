@@ -291,6 +291,12 @@ div.Compilado {
     background: #FEF1CF;
 }
 
+
+div.Compilado h1 {
+    color: #6E6F6A;
+  }
+
+  
 div.Andamento {
     background: red;
 }
@@ -325,6 +331,8 @@ div.Andamento {
     margin-top: 5px;
 
   }
+
+  
     /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
