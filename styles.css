@@ -218,6 +218,12 @@ div.separador{
     color:#26353E;
 }
 
+div.separador h1 {
+    font-size: large;
+}
+div.separador h2 {
+    font-size: medium;
+}
 div.Indicadores{
     display: flex;
     flex-direction: row;
@@ -302,18 +308,18 @@ div.Andamento {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    
 
   }
 
   .flip-card-inner p {
     color: black;
-    font-size: large;
     align-items: center;
     align-content: center;
+    margin-top: 5px;
 
   }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
+    /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 
@@ -340,7 +346,6 @@ div.Andamento {
     background-color: #11AEEF;
     color: white;
     transform: rotateY(180deg);
-    
   }
 
   .alinhamento-central {
