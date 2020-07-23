@@ -215,8 +215,8 @@ div.ds {
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 div.ds p {
     padding: 5px;
@@ -337,9 +337,21 @@ div.Andamento {
     align-items: center;
     align-content: center;
     margin-top: 5px;
+    margin-bottom: 5px;
+
+  }
+  .flip-card-inner a {
+    color:#FEC876;
+    font-size: large;
+    font-weight: bold;
 
   }
 
+  .flip-card-inner img {
+    width: 25px;
+    height: 100%25px;
+
+  }
   
     /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
@@ -377,7 +389,7 @@ div.Andamento {
 }
 .alinhamento-central .item {
 	flex: 0;
-    padding: 20px;
+    padding: 10px;
     font-size: 12px;
 }
 
