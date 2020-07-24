@@ -238,6 +238,16 @@ div.separador h1 {
 div.separador h2 {
     font-size: medium;
 }
+
+div.Perguntas{
+    display: flex;
+    flex-direction: row;
+    align-items: row;
+    justify-content: space-center;
+    flex-wrap: wrap;
+    margin: 5px;     
+}
+
 div.Indicadores{
     display: flex;
     flex-direction: row;
@@ -245,9 +255,7 @@ div.Indicadores{
     justify-content: space-center;
     flex-wrap: wrap;
     margin: 5px;
-    
-
-    
+      
 }
 
 div.Indicadores span {
