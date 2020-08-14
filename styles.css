@@ -160,19 +160,19 @@ div.wrapper-content aside.col1 img.avatar {
 }
 
 div.wrapper-content aside.col1 h1 {
-    font-size: 21px;
+    font-size: 16px;
     color:#11AEEF;
 }
 
 
 div.wrapper-content aside.col1 span {
-    font-size: 14px;
+    font-size: 16px;
     color:#0E0D11;
     margin-top: 7px;
 }
 
 div.wrapper-content aside.col1 p {
-    font-size: 15px;
+    font-size: 14px;
     color:#0E0D11;
     margin-top: 7px;
 }
@@ -222,21 +222,31 @@ div.ds p {
     padding: 5px;
 
 }
-
+div.separadorMacro{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 5px 5px ;
+    margin-bottom: 15px;
+    color:#26353E;
+    background-color: #11AEEF;
+    border-radius: 5%;
+}
 
 div.separador{
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 25px;
+    padding: 5px 5px ;
     margin-bottom: 15px;
     color:#26353E;
 }
 
 div.separador h1 {
-    font-size: large;
+    font-size: 16px;
 }
 div.separador h2 {
-    font-size: medium;
+    font-size: 12px;
 }
 
 div.Perguntas{
@@ -388,6 +398,7 @@ div.Andamento {
     background-color: #11AEEF;
     color: white;
     transform: rotateY(180deg);
+    font-size: 10px;
   }
 
   .alinhamento-central {
@@ -398,7 +409,7 @@ div.Andamento {
 .alinhamento-central .item {
 	flex: 0;
     padding: 10px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .alinhamento-central p {
