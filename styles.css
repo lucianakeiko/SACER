@@ -231,6 +231,7 @@ div.separadorMacro{
     color:#fcfeff;
     background-color: #11AEEF;
     border-radius: 5%;
+    font-size: x-small;
 }
 
 div.separador{
@@ -360,7 +361,7 @@ div.Andamento {
   }
   .flip-card-inner a {
     color:#FEC876;
-    font-size: large;
+    font-size: x-small;
     font-weight: bold;
 
   }
