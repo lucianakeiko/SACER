@@ -222,6 +222,17 @@ div.ds p {
     padding: 5px;
 
 }
+div.separadorPublico{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 5px 5px ;
+    margin-bottom: 15px;
+    color: #0E0D11;
+    background-color:#FEC876;
+    border-radius: 5%;
+    font-size: x-small;
+}
 div.separadorMacro{
     display: flex;
     flex-direction: column;
