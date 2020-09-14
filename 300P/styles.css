@@ -219,14 +219,14 @@ div.ds p {
     padding: 5px;
 
 }
-div.separadorPublico{
+div.Semana{
     display: flex;
     flex-direction: column;
     margin-top: 25px;
     padding: 5px 5px ;
     margin-bottom: 15px;
-    color: #0E0D11;
-    background-color:#FEC876;
+    color: #fcfeff;
+    background-color:#240E47;
     border-radius: 5%;
     font-size: x-small;
 }
@@ -292,7 +292,7 @@ div.Indicadores span {
 div.box {
     width: 150px;
     height: 150px;
-    background: #FEF1CF;
+    background: red;
     margin: 5px;
     border: 0;
     border-radius: 13%;
@@ -314,23 +314,6 @@ div.boxlado {
     border: 0;
     border-radius: 13%;
 }
-div.Semiarido {
-    background:#BBDEFB;
-}
-
-div.Amazonia {
-     background: #C8E6C9;
-}
-
-div.Compilado {
-    background: #FEF1CF;
-}
-
-
-div.Compilado h1 {
-    color: #6E6F6A;
-  }
-
   
 div.Andamento {
     background: red;
@@ -398,13 +381,13 @@ div.Andamento {
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #CA0025;
+    color: white;
   }
 
   /* Style the back side */
   .flip-card-back {
-    background-color: #11AEEF;
+    background-color: #240E47;
     color: white;
     transform: rotateY(180deg);
     font-size: 10px;
