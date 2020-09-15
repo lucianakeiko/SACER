@@ -202,12 +202,12 @@ div.titulo  {
   }
 
   
-  div.codigo textarea {
-    width: 95%;
-    height: 350px;
-    color: grey;
-  }
-
+div.boxds {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 div.ds {
     height: 100%;
     width: 100%;
