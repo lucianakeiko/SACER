@@ -351,7 +351,7 @@ div.Andamento {
 
   }
   .flip-card-inner a {
-    color:#FEC876;
+    color: white;
     font-size: x-small;
     font-weight: bold;
 
@@ -402,8 +402,10 @@ div.Andamento {
 	flex: 0;
     padding: 10px;
     font-size: 10px;
+    
 }
 
 .alinhamento-central p {
     font-size: 12px;
+    color: white;
 }
