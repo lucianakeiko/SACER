@@ -217,11 +217,50 @@ div.ds {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-direction: column;
 }
 div.ds p {
     padding: 5px;
 
 }
+
+div.explica {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.explica img {
+    height: 50%;
+    width: 50%;
+}
+div.dspag {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}
+div.dspag img {
+    height: 254px;
+    width: 254px;
+}
+div.dspag p {
+    justify-content: center;
+}
+div.pagbox {
+    height: 55%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+div.pagbox p {
+    justify-content: center;
+}
+
 div.separadorPublico{
     display: flex;
     flex-direction: column;
